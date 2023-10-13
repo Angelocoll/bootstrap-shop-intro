@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    background: black;
+    
+}
+main{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.navbar {
+    padding: 0px;
+    
+}
+
+.container-fluid{
+    background: rgb(131, 131, 131);
+    
+}
+.btn{
+    color: black;
+    border: solid 2px black;
+}
+.btn:hover{
+    color: rgb(219, 117, 0);
+    border: solid 2px rgb(219, 117, 0);
+    background-color: black;
+}
+.container-fluid .btn:active{
+    color: rgb(0, 0, 0);
+    border: solid 2px rgb(0, 0, 0);
+    background-color: rgb(219, 117, 0);
+}
+.dropdown-menu{
+    background-color: orange;
+}
+.hjälp{
+    margin-top: 40px ;
+    
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: solid grey 4px;
+}
+video {
+    z-index: 000;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.a{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.btn-primary{
+    background: grey;
+    color: black;
+}
+.card-body .btn-primary:active{
+    color: rgb(0, 0, 0);
+    border: solid 2px rgb(0, 0, 0);
+    background-color: rgb(219, 117, 0);
+}
+
+.card{
+    margin-top: 24px;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+footer{
+    height: 20vh;
+    width: 100%;
+    background: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link{
+    color: black;
+}
+
+
+@media(max-width:920px){
+    .a{
+        
+        flex-direction: column;
+        
+        
+    }
+}
