@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background: black;
+    background: rgb(37, 37, 37);
     
 }
 main{
@@ -17,7 +17,14 @@ align-items: center;
     background: rgb(131, 131, 131);
     height: 10vh;
     
+    
 }
+
+#navbarSupportedContent{
+    background: rgb(131, 131, 131);
+    border-radius: 4px;
+}
+
 .btn{
     color: black;
     border: solid 2px black;
@@ -47,7 +54,7 @@ align-items: center;
     border: solid grey 4px;
 }
 video {
-    z-index: 000;
+    
     
     top: 0;
     left: 0;
@@ -64,6 +71,10 @@ video {
     
     
 }
+
+
+
+
 .btn-primary{
     background: grey;
     color: black;
